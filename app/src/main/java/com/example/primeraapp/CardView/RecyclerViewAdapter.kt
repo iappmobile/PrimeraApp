@@ -37,8 +37,12 @@ class RecyclerViewAdapter: RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>(
         holder.name.text = names[position]
         holder.phone.text = phones[position]
         holder.imagen.setImageResource(imagenes[position])
+
+        holder.itemView.setOnClickListener {
+
+        }
     }
 
-    
+
 
 }
